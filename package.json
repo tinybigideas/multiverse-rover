@@ -1,0 +1,18 @@
+{
+  "name": "multiverse-rover",
+  "version": "0.0.1",
+  "description": "Multiverse tech test",
+  "main": "index.ts",
+  "repository": "git@github.com:tinybigideas/multiverse-rover.git",
+  "author": "Craig Thomas <craig@tinybigideas.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "rover": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.0.0",
+    "conf": "^10.1.1"
+  }
+}
